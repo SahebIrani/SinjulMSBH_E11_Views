@@ -1,0 +1,60 @@
+﻿@{
+      ViewData[ "Title" ] = "Carousel";
+}
+<article class="container">
+      <section class="mt-4 row">
+            <div class="col">
+                  <pagination bc-size="Large">
+                        <pagination-item href="#">1</pagination-item>
+                        <pagination-item href="#" bc-disable="true">2</pagination-item>
+                        <pagination-item href="#">3</pagination-item>
+                  </pagination>
+                  <pagination bc-previous-text="Previous" bc-previous-href="javascript: app.previous();">
+                        <pagination-item href="#" bc-active="true">1</pagination-item>
+                        <pagination-item href="#">2</pagination-item>
+                        <pagination-item href="#">3</pagination-item>
+                  </pagination>
+            </div>
+            <div class="col">
+                  <pagination bc-size="Large" bc-previous-text="Previous" bc-next-text="Next">
+                        <pagination-item href="#">1</pagination-item>
+                        <pagination-item href="#">2</pagination-item>
+                        <pagination-item href="#">3</pagination-item>
+                  </pagination>
+            </div>
+            <div class="col">
+                  <pagination bc-size="Small">
+                        <pagination-item href="#">1</pagination-item>
+                        <pagination-item href="#">2</pagination-item>
+                        <pagination-item href="#" bc-active="true">3</pagination-item>
+                  </pagination>
+            </div>
+      </section>
+      <section class="row">
+            <div class="col">
+                  <pagination>
+                        <pagination-item href="#">1</pagination-item>
+                        <pagination-item href="#">2</pagination-item>
+                        <pagination-item href="#">3</pagination-item>
+                  </pagination>
+            </div>
+      </section>
+      <section class="row">
+            <div class="col">
+                  <pagination bc-alignment="Center">
+                        <pagination-item href="#">1</pagination-item>
+                        <pagination-item href="#">2</pagination-item>
+                        <pagination-item href="#">3</pagination-item>
+                  </pagination>
+            </div>
+      </section>
+      <section class="row">
+            <div class="col">
+                  <pagination bc-alignment="Right">
+                        <pagination-item href="#">1</pagination-item>
+                        <pagination-item href="#">2</pagination-item>
+                        <pagination-item href="#">3</pagination-item>
+                  </pagination>
+            </div>
+      </section>
+</article>

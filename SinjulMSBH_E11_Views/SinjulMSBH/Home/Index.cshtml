@@ -1,0 +1,8 @@
+﻿@{
+      ViewData[ "Title" ] = "Index";
+}
+<section class="mt-5">
+      <h1>Statistic TagHelper : <strong><vc:Statistic></vc:Statistic></strong></h1>
+      <h1>Statistic Razor     : <strong>@await Component.InvokeAsync( "Statistic" )</strong></h1>
+      <h1>Statistic Headers   : <strong>@ViewContext.HttpContext.Request.Headers[ "Result" ]</strong></h1>
+</section>
